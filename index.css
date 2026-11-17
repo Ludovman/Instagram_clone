@@ -1,0 +1,59 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, main {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.logo {
+    position: sticky;
+    width: 150px;
+}
+
+section {
+    background-color: whitesmoke;
+    margin: 30px 0;
+    padding: 10px 20px;
+}
+
+#first-avatar, #second-avatar, #third-avatar {
+    width: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+#name, #location {
+    margin: 0;
+    font-size: 14px;
+}
+
+#name {
+    font-weight: 900;
+    padding-bottom: 5px;
+}
+
+.post {
+    width: 100%;
+    display: block;
+}
+
+.icons img {
+    width: 40px;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.likes, span {
+    font-weight: 900;
+    font-size: 14px;
+}
